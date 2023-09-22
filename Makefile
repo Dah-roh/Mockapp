@@ -4,6 +4,7 @@ PROJECT_DIR: .
 
 all: clean package run_docker
 
+
 clean:
 	@echo "CLEAN MOCKAPP..."
 	@cd $(PROJECT_DIR) && mvn clean
